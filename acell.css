@@ -1,0 +1,264 @@
+body{
+    margin:0;
+    padding:0;
+}
+#nav {
+    position:fixed;
+    padding: 0 30vh;
+    background: #283e4a;
+    border-top: none;
+    box-shadow: none;
+    height: 52px;
+    width:100vw;
+    //font-family: Source Sans Pro,Helvetica,Arial,sans-serif,Hiragino Kaku Gothic Pro,Meiryo,Hiragino Sans GB W3,Noto Naskh Arabic,Droid Arabic Naskh,Geeza Pro,Simplified Arabic,Noto Sans Thai,Thonburi,Dokchampa,Droid Sans Thai,Droid Sans Fallback,-apple-system,'.SFNSDisplay-Regular',Heiti SC,Microsoft Yahei,Segoe UI;
+    display: inline-block;
+    z-index: 1000;
+}
+.linkedin{
+    height: 49px;
+    margin-top:1px;
+}
+#search{
+    position:absolute;
+    top:7px;
+    margin-left: 10px;
+    display:inline-block;
+    border-radius: 2px;
+    border:1px solid #283e4a;
+    FONT-SIZE:15PX;
+    background-color: #e1e9ee;
+    padding: 0 8px 0 28px;
+    line-height: 34px;
+    color: #283e4a;
+    width: 20vw;
+    font-weight: 400;
+}
+#box-1{
+    //background-color: brown;
+    color:brown;
+    height:auto;
+    width:100vw;
+    z-index:-100;
+
+}
+#icon{
+    //float:left;
+    position:absolute;
+    clear: both;
+    height:128px;
+    width:128px;
+    margin: 3vh 0 auto 2vw;
+
+}
+#box-2{
+    position: absolute;
+    //border: 2px solid red;
+    width: 55vw;
+    margin-left: 10vw;
+    margin-top: -10vh;
+    background-color: white;
+    z-index: 100;
+    box-shadow: 1.4px 1.4px 1.4px 1.4px #888888;
+    height:25vh;
+}
+#text-1{
+    position: relative;
+    margin-left:15vw;
+    font-weight: 200;
+    font-family: Source Sans Pro,Helvetica,Arial,sans-serif,Hiragino Kaku Gothic Pro,Meiryo,Hiragino Sans GB W3,Noto Naskh Arabic,Droid Arabic Naskh,Geeza Pro,Simplified Arabic,Noto Sans Thai,Thonburi,Dokchampa,Droid Sans Thai,Droid Sans Fallback,-apple-system,'.SFNSDisplay-Regular',Heiti SC,Microsoft Yahei,Segoe UI;;
+    font-size: 24px;
+    color: rgba(0,0,0,.7);
+    line-height:2px;
+}
+#text-2{
+    position: relative;
+    margin-left:15vw;
+    color: rgba(0,0,0,.7);
+    //line-height:0px;
+}
+#text-3{
+     position: relative;
+     margin-left:15vw;
+     font-weight: 700;
+ }
+a{
+    text-decoration: none;
+    color: #0084bf;
+}
+#inp-1{
+    position: relative;
+    margin-left:15vw;
+    //box-shadow: 1px 1px 1px 1px #0073b1;
+    background-color: white;
+    border: 1.5px solid #0073b1;
+    height: 5vh;
+    width: 6vw;
+    color:#0073b1;
+    font-family: inherit;
+    font-size: 1em;
+    font-weight:700;
+    border-radius: 2px;
+}
+#ino-2{
+    position: relative;
+    //margin-left:15vw;
+//box-shadow: 1px 1px 1px 1px #0073b1;
+    background-color: white;
+    border: 1.5px solid #0073b1;
+    height: 5vh;
+    width: 6vw;
+    background-color:#0073b1;
+    color: white;
+    font-family: inherit;
+    font-size: 1em;
+    font-weight:700;
+    border-radius: 2px;
+
+ }
+#pre-box-1{
+    margin-top:52px;
+    background-color: black;
+    opacity: 0.5;
+    position: absolute;
+    height:4vh;
+    width:100vw;
+}
+#box-3{
+    position: absolute;
+    padding: 2vh 4vw;
+   // border: 2px solid red;
+    width: 47vw;
+    margin-left: 10vw;
+    margin-top: 17vh;
+    background-color: white;
+    z-index: 100;
+    box-shadow: 1.4px 1.4px 1.4px 1.4px #888888;
+    height:auto;
+}
+#text-4{
+    font-family: Sans Pro,Helvetica,Arial,sans-serif,Hiragino Kaku Gothic Pro,Meiryo,Hiragino Sans GB W3,Noto Naskh Arabic,Droid Arabic Naskh,Geeza Pro,Simplified Arabic,Noto Sans Thai,Thonburi,Dokchampa,Droid Sans Thai,Droid Sans Fallback,-apple-system,'.SFNSDisplay-Regular',Heiti SC,Microsoft Yahei,Segoe UI;
+    font-size: 20px;
+    color: rgba(0,0,0,.9);
+}
+#text-5{
+    font-family: Sans Pro,Helvetica,Arial,sans-serif,Hiragino Kaku Gothic Pro,Meiryo,Hiragino Sans GB W3,Noto Naskh Arabic,Droid Arabic Naskh,Geeza Pro,Simplified Arabic,Noto Sans Thai,Thonburi,Dokchampa,Droid Sans Thai,Droid Sans Fallback,-apple-system,'.SFNSDisplay-Regular',Heiti SC,Microsoft Yahei,Segoe UI;
+    font-size: 15px;
+    color: rgba(0,0,0,.7);
+}
+#text-6{
+    font-family: Sans Pro,Helvetica,Arial,sans-serif,Hiragino Kaku Gothic Pro,Meiryo,Hiragino Sans GB W3,Noto Naskh Arabic,Droid Arabic Naskh,Geeza Pro,Simplified Arabic,Noto Sans Thai,Thonburi,Dokchampa,Droid Sans Thai,Droid Sans Fallback,-apple-system,'.SFNSDisplay-Regular',Heiti SC,Microsoft Yahei,Segoe UI;
+    font-size: 20px;
+    color: rgba(0,0,0,.9);
+}
+#text-7{
+    font-family: Sans Pro,Helvetica,Arial,sans-serif,Hiragino Kaku Gothic Pro,Meiryo,Hiragino Sans GB W3,Noto Naskh Arabic,Droid Arabic Naskh,Geeza Pro,Simplified Arabic,Noto Sans Thai,Thonburi,Dokchampa,Droid Sans Thai,Droid Sans Fallback,-apple-system,'.SFNSDisplay-Regular',Heiti SC,Microsoft Yahei,Segoe UI;
+    font-size: 15px;
+    //color: rgba(0,0,0,.9);
+    font-weight: 700;
+}
+#text-8{
+    font-family: Sans Pro,Helvetica,Arial,sans-serif,Hiragino Kaku Gothic Pro,Meiryo,Hiragino Sans GB W3,Noto Naskh Arabic,Droid Arabic Naskh,Geeza Pro,Simplified Arabic,Noto Sans Thai,Thonburi,Dokchampa,Droid Sans Thai,Droid Sans Fallback,-apple-system,'.SFNSDisplay-Regular',Heiti SC,Microsoft Yahei,Segoe UI;
+    font-size: 15px;
+    color: #0084bf;
+    font-weight: 600;
+    line-height: 20px;
+}
+#text-9{
+    font-family: Sans Pro,Helvetica,Arial,sans-serif,Hiragino Kaku Gothic Pro,Meiryo,Hiragino Sans GB W3,Noto Naskh Arabic,Droid Arabic Naskh,Geeza Pro,Simplified Arabic,Noto Sans Thai,Thonburi,Dokchampa,Droid Sans Thai,Droid Sans Fallback,-apple-system,'.SFNSDisplay-Regular',Heiti SC,Microsoft Yahei,Segoe UI;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 700;
+}
+#text-10{
+    font-family: Sans Pro,Helvetica,Arial,sans-serif,Hiragino Kaku Gothic Pro,Meiryo,Hiragino Sans GB W3,Noto Naskh Arabic,Droid Arabic Naskh,Geeza Pro,Simplified Arabic,Noto Sans Thai,Thonburi,Dokchampa,Droid Sans Thai,Droid Sans Fallback,-apple-system,'.SFNSDisplay-Regular',Heiti SC,Microsoft Yahei,Segoe UI;
+    font-size: 15px;
+    line-height: 10px;
+    font-weight: 500;
+}
+#text-11{
+    font-family: Sans Pro,Helvetica,Arial,sans-serif,Hiragino Kaku Gothic Pro,Meiryo,Hiragino Sans GB W3,Noto Naskh Arabic,Droid Arabic Naskh,Geeza Pro,Simplified Arabic,Noto Sans Thai,Thonburi,Dokchampa,Droid Sans Thai,Droid Sans Fallback,-apple-system,'.SFNSDisplay-Regular',Heiti SC,Microsoft Yahei,Segoe UI;
+    font-size: 15px;
+    line-height: 10px;
+    font-weight: 600;
+}
+#home{
+    margin-left: 35vw;
+    position:fixed;
+    top:1.2vh;
+}
+#hom{
+    color: #c7d1d8;
+    font-family: Source Sans Pro,Helvetica,Arial,sans-serif,Hiragino Kaku Gothic Pro,Meiryo,Hiragino Sans GB W3,Noto Naskh Arabic,Droid Arabic Naskh,Geeza Pro,Simplified Arabic,Noto Sans Thai,Thonburi,Dokchampa,Droid Sans Thai,Droid Sans Fallback,-apple-system,'.SFNSDisplay-Regular',Heiti SC,Microsoft Yahei,Segoe UI;
+    font-weight:600;
+    font-size:13px;
+
+}
+#home-img{
+    height:24px;
+    width:24px;
+    margin-left:.5vw;
+}
+#hom:hover{
+    color:white;
+}
+#Mynet{
+    margin-left: 39vw;
+    position:fixed;
+    top:1.2vh;
+}
+#myn{
+    color: #c7d1d8;
+    font-family: Source Sans Pro,Helvetica,Arial,sans-serif,Hiragino Kaku Gothic Pro,Meiryo,Hiragino Sans GB W3,Noto Naskh Arabic,Droid Arabic Naskh,Geeza Pro,Simplified Arabic,Noto Sans Thai,Thonburi,Dokchampa,Droid Sans Thai,Droid Sans Fallback,-apple-system,'.SFNSDisplay-Regular',Heiti SC,Microsoft Yahei,Segoe UI;
+    font-weight:600;
+    font-size:13px;
+
+}
+#myn-img{
+    height:24px;
+    width:24px;
+    margin-left:1.6vw;
+}
+#myn:hover{
+    color:white;
+}
+#jobs{
+    margin-left: 45vw;
+    position:fixed;
+    top:1.2vh;
+    //background-color:black;
+}
+#job{
+    color: #c7d1d8;
+    font-family: Source Sans Pro,Helvetica,Arial,sans-serif,Hiragino Kaku Gothic Pro,Meiryo,Hiragino Sans GB W3,Noto Naskh Arabic,Droid Arabic Naskh,Geeza Pro,Simplified Arabic,Noto Sans Thai,Thonburi,Dokchampa,Droid Sans Thai,Droid Sans Fallback,-apple-system,'.SFNSDisplay-Regular',Heiti SC,Microsoft Yahei,Segoe UI;
+    font-weight:600;
+    font-size:13px;
+
+}
+#job-img{
+    height:24px;
+    width:24px;
+    margin-left:.2vw;
+}
+#job:hover{
+    color:white;
+}
+#message{
+    margin-left: 48.4vw;
+    position:fixed;
+    top:1.2vh;
+}
+#msg{
+    color: #c7d1d8;
+    font-family: Source Sans Pro,Helvetica,Arial,sans-serif,Hiragino Kaku Gothic Pro,Meiryo,Hiragino Sans GB W3,Noto Naskh Arabic,Droid Arabic Naskh,Geeza Pro,Simplified Arabic,Noto Sans Thai,Thonburi,Dokchampa,Droid Sans Thai,Droid Sans Fallback,-apple-system,'.SFNSDisplay-Regular',Heiti SC,Microsoft Yahei,Segoe UI;
+    font-weight:600;
+    font-size:13px;
+
+}
+#msg-img{
+    height:24px;
+    width:24px;
+    margin-left:1.6vw;
+}
+#msg:hover{
+    color:white;
+}
